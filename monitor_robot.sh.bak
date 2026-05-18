@@ -1,0 +1,47 @@
+#!/bin/bash
+# Robot Monitor Script - captures key topics for analysis
+
+WS="/home/natdanai/ROS_Source_Code/yahboomcar_ws/function_package_without_WiFi_module/yahboomcar_ws"
+LOG_DIR="/home/natdanai/ROS_Source_Code/robot_logs"
+mkdir -p "$LOG_DIR"
+
+source /opt/ros/humble/setup.bash
+source "$WS/install/setup.bash"
+
+TIMESTAMP=$(date +"%Y%m%d_%H%M%S")
+LOG="$LOG_DIR/run_$TIMESTAMP"
+mkdir -p "$LOG"
+
+echo "=== Robot Monitor Started: $TIMESTAMP ===" | tee "$LOG/summary.txt"
+echo "Logs saved to: $LOG"
+echo ""
+
+# Monitor each topic in background, save to file
+ros2 topic echo /cmd_vel        --no-arr 2>/dev/null >> "$LOG/cmd_vel.txt"     &
+ros2 topic echo /odom           --no-arr 2>/dev/null >> "$LOG/odom.txt"        &
+ros2 topic echo /amcl_pose      --no-arr 2>/dev/null >> "$LOG/amcl_pose.txt"   &
+ros2 topic echo /tf_static      --no-arr 2>/dev/null >> "$LOG/tf_static.txt"   &
+
+# Show live status every 3 seconds
+echo ""
+echo "--- LIVE STATUS (Ctrl+C to stop) ---"
+while true; do
+    echo ""
+    echo "=== $(date +%H:%M:%S) ==="
+
+    # Node count
+    NODE_COUNT=$(ros2 node list 2>/dev/null | wc -l)
+    echo "Active nodes: $NODE_COUNT"
+
+    # Latest cmd_vel
+    CMD=$(timeout 1 ros2 topic echo /cmd_vel --once --no-arr 2>/dev/null | grep -E "x:|z:" | tr '\n' ' ')
+    echo "cmd_vel: $CMD"
+
+    # Latest amcl pose
+    POSE=$(timeout 1 ros2 topic echo /amcl_pose --once --no-arr 2>/dev/null | grep -E "x:|y:|z:|w:" | head -4 | tr '\n' ' ')
+    echo "amcl_pose: $POSE"
+
+    # Topic hz
+    echo "---"
+    sleep 3
+done

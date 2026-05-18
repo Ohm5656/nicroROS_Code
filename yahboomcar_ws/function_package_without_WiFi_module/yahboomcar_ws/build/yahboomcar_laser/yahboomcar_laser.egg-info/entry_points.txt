@@ -1,0 +1,5 @@
+[console_scripts]
+laser_Avoidance = yahboomcar_laser.laser_Avoidance:main
+laser_Tracker = yahboomcar_laser.laser_Tracker:main
+laser_Warning = yahboomcar_laser.laser_Warning:main
+

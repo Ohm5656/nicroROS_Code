@@ -1,0 +1,10 @@
+{
+  "package_name": "yahboomcar_msgs",
+  "non_idl_tuples": [
+    "/home/natdanai/ROS_Source_Code/yahboomcar_ws/function_package_without_WiFi_module/yahboomcar_ws/src/yahboomcar_msgs:msg/ImageMsg.msg",
+    "/home/natdanai/ROS_Source_Code/yahboomcar_ws/function_package_without_WiFi_module/yahboomcar_ws/src/yahboomcar_msgs:msg/PointArray.msg",
+    "/home/natdanai/ROS_Source_Code/yahboomcar_ws/function_package_without_WiFi_module/yahboomcar_ws/src/yahboomcar_msgs:msg/Position.msg",
+    "/home/natdanai/ROS_Source_Code/yahboomcar_ws/function_package_without_WiFi_module/yahboomcar_ws/src/yahboomcar_msgs:msg/Target.msg",
+    "/home/natdanai/ROS_Source_Code/yahboomcar_ws/function_package_without_WiFi_module/yahboomcar_ws/src/yahboomcar_msgs:msg/TargetArray.msg"
+  ]
+}

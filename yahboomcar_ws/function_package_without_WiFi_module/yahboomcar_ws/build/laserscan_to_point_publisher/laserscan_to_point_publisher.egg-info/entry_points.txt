@@ -1,0 +1,3 @@
+[console_scripts]
+laserscan_to_point_publisher = laserscan_to_point_publisher.laserscan_to_point_publish:main
+

@@ -1,0 +1,6 @@
+[console_scripts]
+app_send_goal = yahboomcar_nav.app_send_goal:main
+stop_car = yahboomcar_nav.stop_car:main
+stop_robot1_car = yahboomcar_nav.stop_robot1_car:main
+stop_robot2_car = yahboomcar_nav.stop_robot2_car:main
+

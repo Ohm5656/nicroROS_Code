@@ -1,0 +1,39 @@
+running egg_info
+creating ../../../../../build/waypoint_nav/waypoint_nav.egg-info
+writing ../../../../../build/waypoint_nav/waypoint_nav.egg-info/PKG-INFO
+writing dependency_links to ../../../../../build/waypoint_nav/waypoint_nav.egg-info/dependency_links.txt
+writing entry points to ../../../../../build/waypoint_nav/waypoint_nav.egg-info/entry_points.txt
+writing requirements to ../../../../../build/waypoint_nav/waypoint_nav.egg-info/requires.txt
+writing top-level names to ../../../../../build/waypoint_nav/waypoint_nav.egg-info/top_level.txt
+writing manifest file '../../../../../build/waypoint_nav/waypoint_nav.egg-info/SOURCES.txt'
+reading manifest file '../../../../../build/waypoint_nav/waypoint_nav.egg-info/SOURCES.txt'
+writing manifest file '../../../../../build/waypoint_nav/waypoint_nav.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/natdanai/ROS_Source_Code/build/waypoint_nav/build
+creating /home/natdanai/ROS_Source_Code/build/waypoint_nav/build/lib
+creating /home/natdanai/ROS_Source_Code/build/waypoint_nav/build/lib/waypoint_nav
+copying waypoint_nav/__init__.py -> /home/natdanai/ROS_Source_Code/build/waypoint_nav/build/lib/waypoint_nav
+copying waypoint_nav/run_waypoints.py -> /home/natdanai/ROS_Source_Code/build/waypoint_nav/build/lib/waypoint_nav
+copying waypoint_nav/collect_points.py -> /home/natdanai/ROS_Source_Code/build/waypoint_nav/build/lib/waypoint_nav
+running install
+running install_lib
+creating /home/natdanai/ROS_Source_Code/install/waypoint_nav/lib/python3.10/site-packages/waypoint_nav
+copying /home/natdanai/ROS_Source_Code/build/waypoint_nav/build/lib/waypoint_nav/__init__.py -> /home/natdanai/ROS_Source_Code/install/waypoint_nav/lib/python3.10/site-packages/waypoint_nav
+copying /home/natdanai/ROS_Source_Code/build/waypoint_nav/build/lib/waypoint_nav/run_waypoints.py -> /home/natdanai/ROS_Source_Code/install/waypoint_nav/lib/python3.10/site-packages/waypoint_nav
+copying /home/natdanai/ROS_Source_Code/build/waypoint_nav/build/lib/waypoint_nav/collect_points.py -> /home/natdanai/ROS_Source_Code/install/waypoint_nav/lib/python3.10/site-packages/waypoint_nav
+byte-compiling /home/natdanai/ROS_Source_Code/install/waypoint_nav/lib/python3.10/site-packages/waypoint_nav/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/natdanai/ROS_Source_Code/install/waypoint_nav/lib/python3.10/site-packages/waypoint_nav/run_waypoints.py to run_waypoints.cpython-310.pyc
+byte-compiling /home/natdanai/ROS_Source_Code/install/waypoint_nav/lib/python3.10/site-packages/waypoint_nav/collect_points.py to collect_points.cpython-310.pyc
+running install_data
+creating /home/natdanai/ROS_Source_Code/install/waypoint_nav/share/ament_index
+creating /home/natdanai/ROS_Source_Code/install/waypoint_nav/share/ament_index/resource_index
+creating /home/natdanai/ROS_Source_Code/install/waypoint_nav/share/ament_index/resource_index/packages
+copying resource/waypoint_nav -> /home/natdanai/ROS_Source_Code/install/waypoint_nav/share/ament_index/resource_index/packages
+copying package.xml -> /home/natdanai/ROS_Source_Code/install/waypoint_nav/share/waypoint_nav
+running install_egg_info
+Copying ../../../../../build/waypoint_nav/waypoint_nav.egg-info to /home/natdanai/ROS_Source_Code/install/waypoint_nav/lib/python3.10/site-packages/waypoint_nav-0.0.0-py3.10.egg-info
+running install_scripts
+Installing collect_points script to /home/natdanai/ROS_Source_Code/install/waypoint_nav/lib/waypoint_nav
+Installing run_waypoints script to /home/natdanai/ROS_Source_Code/install/waypoint_nav/lib/waypoint_nav
+writing list of installed files to '/home/natdanai/ROS_Source_Code/build/waypoint_nav/install.log'

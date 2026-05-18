@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/waypoint_nav/waypoint_nav.egg-info/PKG-INFO
+writing dependency_links to ../../build/waypoint_nav/waypoint_nav.egg-info/dependency_links.txt
+writing entry points to ../../build/waypoint_nav/waypoint_nav.egg-info/entry_points.txt
+writing requirements to ../../build/waypoint_nav/waypoint_nav.egg-info/requires.txt
+writing top-level names to ../../build/waypoint_nav/waypoint_nav.egg-info/top_level.txt
+reading manifest file '../../build/waypoint_nav/waypoint_nav.egg-info/SOURCES.txt'
+writing manifest file '../../build/waypoint_nav/waypoint_nav.egg-info/SOURCES.txt'
+running build
+running build_py
+copying waypoint_nav/check_points.py -> /home/natdanai/ROS_Source_Code/yahboomcar_ws/function_package_without_WiFi_module/yahboomcar_ws/build/waypoint_nav/build/lib/waypoint_nav
+running install
+running install_lib
+copying /home/natdanai/ROS_Source_Code/yahboomcar_ws/function_package_without_WiFi_module/yahboomcar_ws/build/waypoint_nav/build/lib/waypoint_nav/check_points.py -> /home/natdanai/ROS_Source_Code/yahboomcar_ws/function_package_without_WiFi_module/yahboomcar_ws/install/waypoint_nav/lib/python3.10/site-packages/waypoint_nav
+byte-compiling /home/natdanai/ROS_Source_Code/yahboomcar_ws/function_package_without_WiFi_module/yahboomcar_ws/install/waypoint_nav/lib/python3.10/site-packages/waypoint_nav/check_points.py to check_points.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/natdanai/ROS_Source_Code/yahboomcar_ws/function_package_without_WiFi_module/yahboomcar_ws/install/waypoint_nav/lib/python3.10/site-packages/waypoint_nav-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/waypoint_nav/waypoint_nav.egg-info to /home/natdanai/ROS_Source_Code/yahboomcar_ws/function_package_without_WiFi_module/yahboomcar_ws/install/waypoint_nav/lib/python3.10/site-packages/waypoint_nav-0.0.0-py3.10.egg-info
+running install_scripts
+Installing check_points script to /home/natdanai/ROS_Source_Code/yahboomcar_ws/function_package_without_WiFi_module/yahboomcar_ws/install/waypoint_nav/lib/waypoint_nav
+Installing collect_points script to /home/natdanai/ROS_Source_Code/yahboomcar_ws/function_package_without_WiFi_module/yahboomcar_ws/install/waypoint_nav/lib/waypoint_nav
+Installing run_waypoints script to /home/natdanai/ROS_Source_Code/yahboomcar_ws/function_package_without_WiFi_module/yahboomcar_ws/install/waypoint_nav/lib/waypoint_nav
+writing list of installed files to '/home/natdanai/ROS_Source_Code/yahboomcar_ws/function_package_without_WiFi_module/yahboomcar_ws/build/waypoint_nav/install.log'

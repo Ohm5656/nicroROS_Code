@@ -1,0 +1,13 @@
+[console_scripts]
+Ackman_driver_R2 = yahboomcar_bringup.Ackman_driver_R2:main
+Mcnamu_driver_X3 = yahboomcar_bringup.Mcnamu_driver_X3:main
+Mcnamu_driver_x1 = yahboomcar_bringup.Mcnamu_driver_x1:main
+calibrate_angular = yahboomcar_bringup.calibrate_angular:main
+calibrate_angular_R2 = yahboomcar_bringup.calibrate_angular_R2:main
+calibrate_linear = yahboomcar_bringup.calibrate_linear:main
+calibrate_linear_R2 = yahboomcar_bringup.calibrate_linear_R2:main
+patrol = yahboomcar_bringup.patrol:main
+patrol_4ROS = yahboomcar_bringup.patrol_4ROS:main
+patrol_4ROS_R2 = yahboomcar_bringup.patrol_4ROS_R2:main
+patrol_a1_R2 = yahboomcar_bringup.patrol_a1_R2:main
+

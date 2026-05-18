@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 *)",
+      "Bash(pkill -f \"ros2 launch\")",
+      "Bash(pkill -f \"ros2 run\")",
+      "Bash(pkill -f \"static_transform_publisher\")",
+      "Bash(pkill -f \"component_container\")",
+      "Bash(pkill -f \"micro_ros_agent\")",
+      "Bash(awk '{print $2, substr\\($0, index\\($0,$11\\)\\)}')",
+      "Bash(chmod +x /home/natdanai/kill.sh)",
+      "Bash(chmod +x /home/natdanai/ROS_Source_Code/monitor_robot.sh)",
+      "Bash(awk '{print $2}')",
+      "Read(//tmp/**)"
+    ]
+  }
+}

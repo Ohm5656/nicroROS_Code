@@ -1,0 +1,3 @@
+[console_scripts]
+sub_img = yahboom_esp32_camera.sub_img:main
+

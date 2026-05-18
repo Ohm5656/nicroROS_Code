@@ -1,0 +1,12 @@
+[console_scripts]
+FingerCtrl = yahboom_esp32ai_car.FingerCtrl:main
+HandCtrl = yahboom_esp32ai_car.HandCtrl:main
+RobotCtrl = yahboom_esp32ai_car.RobotCtrl:main
+colorHSV = yahboom_esp32ai_car.colorHSV:main
+colorTracker = yahboom_esp32ai_car.colorTracker:main
+control_shape = yahboom_esp32ai_car.control_shape:main
+face_fllow = yahboom_esp32ai_car.face_fllow:main
+follow_line = yahboom_esp32ai_car.follow_line:main
+mono_Tracker = yahboom_esp32ai_car.mono_Tracker:main
+qrTracker = yahboom_esp32ai_car.qrTracker:main
+

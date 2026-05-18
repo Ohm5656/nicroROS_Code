@@ -1,0 +1,67 @@
+[INFO] [launch]: All log files can be found below /home/natdanai/.ros/log/2026-05-11-19-09-02-036568-natdanai-Cyborg-15-B2RWFKG-133709
+[INFO] [launch]: Default logging verbosity is set to INFO
+---------------------robot_type = x3---------------------
+[INFO] [imu_filter_madgwick_node-1]: process started with pid [133747]
+[INFO] [ekf_node-2]: process started with pid [133749]
+[INFO] [static_transform_publisher-3]: process started with pid [133751]
+[INFO] [joint_state_publisher-4]: process started with pid [133753]
+[INFO] [robot_state_publisher-5]: process started with pid [133755]
+[INFO] [static_transform_publisher-6]: process started with pid [133757]
+[static_transform_publisher-3] [WARN] [1778501342.212318953] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-6] [WARN] [1778501342.213895452] []: Old-style arguments are deprecated; see --help for new-style arguments
+[robot_state_publisher-5] [WARN] [1778501342.260750109] [kdl_parser]: The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[robot_state_publisher-5] [INFO] [1778501342.260932239] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-5] [INFO] [1778501342.260995177] [robot_state_publisher]: got segment imu_Link
+[robot_state_publisher-5] [INFO] [1778501342.261003480] [robot_state_publisher]: got segment jq1_Link
+[robot_state_publisher-5] [INFO] [1778501342.261010155] [robot_state_publisher]: got segment jq2_Link
+[robot_state_publisher-5] [INFO] [1778501342.261016738] [robot_state_publisher]: got segment radar_Link
+[robot_state_publisher-5] [INFO] [1778501342.261023698] [robot_state_publisher]: got segment yh_Link
+[robot_state_publisher-5] [INFO] [1778501342.261030096] [robot_state_publisher]: got segment yq_Link
+[robot_state_publisher-5] [INFO] [1778501342.261036699] [robot_state_publisher]: got segment zh_Link
+[robot_state_publisher-5] [INFO] [1778501342.261043299] [robot_state_publisher]: got segment zq_Link
+[static_transform_publisher-3] [INFO] [1778501342.282208136] [base_link_to_base_imu]: Spinning until stopped - publishing transform
+[static_transform_publisher-3] translation: ('-0.002999', '-0.003000', '0.031701')
+[static_transform_publisher-3] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-3] from 'base_link' to 'imu_frame'
+[static_transform_publisher-6] [INFO] [1778501342.282297720] [static_transform_publisher_wSn7wsvkjLe87dFy]: Spinning until stopped - publishing transform
+[static_transform_publisher-6] translation: ('0.000000', '0.000000', '0.050000')
+[static_transform_publisher-6] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-6] from 'base_footprint' to 'base_link'
+[imu_filter_madgwick_node-1] [INFO] [1778501342.693974451] [imu_filter]: Starting ImuFilter
+[imu_filter_madgwick_node-1] [INFO] [1778501342.694262218] [imu_filter]: Using dt computed from message headers
+[imu_filter_madgwick_node-1] [INFO] [1778501342.694278244] [imu_filter]: The gravity vector is kept in the IMU message.
+[imu_filter_madgwick_node-1] [INFO] [1778501342.694345674] [imu_filter]: Imu filter gain set to 0.100000
+[imu_filter_madgwick_node-1] [INFO] [1778501342.694359663] [imu_filter]: Gyro drift bias set to 0.000000
+[imu_filter_madgwick_node-1] [INFO] [1778501342.694367418] [imu_filter]: Magnetometer bias values: 0.000000 0.000000 0.000000
+[imu_filter_madgwick_node-1] [INFO] [1778501343.096799141] [imu_filter]: First IMU message received.
+[joint_state_publisher-4] [INFO] [1778501343.277214303] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+[ekf_node-2] Failed to meet update rate! Took 0.26061811000000001393seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[ekf_node-2] Failed to meet update rate! Took 0.23520500499999999477seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[ekf_node-2] Failed to meet update rate! Took 0.32545948099999999492seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[ekf_node-2] Failed to meet update rate! Took 0.26066776400000002401seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[ekf_node-2] Failed to meet update rate! Took 0.26758761800000002706seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[ekf_node-2] Failed to meet update rate! Took 0.17366394099999998835seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[ekf_node-2] Failed to meet update rate! Took 0.15906430199999999076seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[ekf_node-2] Failed to meet update rate! Took 0.16892153300000001259seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[ekf_node-2] Failed to meet update rate! Took 0.1885721039999999904seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[ekf_node-2] Failed to meet update rate! Took 0.28820215700000001435seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[ekf_node-2] Failed to meet update rate! Took 0.20331663899999999345seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[ekf_node-2] Failed to meet update rate! Took 0.27227362199999999293seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[ekf_node-2] Failed to meet update rate! Took 0.29585700300000000729seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[ekf_node-2] Failed to meet update rate! Took 0.30123022700000001706seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[ekf_node-2] Failed to meet update rate! Took 0.3200341999999999909seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[ekf_node-2] Failed to meet update rate! Took 0.2664498419999999923seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[ekf_node-2] Failed to meet update rate! Took 0.23309602300000001329seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[ekf_node-2] Failed to meet update rate! Took 0.32528757200000002481seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[ekf_node-2] Failed to meet update rate! Took 0.20194077899999998693seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[ekf_node-2] Failed to meet update rate! Took 0.2188398109999999952seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[ekf_node-2] Failed to meet update rate! Took 0.3271662839999999739seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[ekf_node-2] Failed to meet update rate! Took 0.1448107459999999902seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[ekf_node-2] Failed to meet update rate! Took 0.1455071009999999998seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[ekf_node-2] Failed to meet update rate! Took 0.31714364699999997299seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[ekf_node-2] Failed to meet update rate! Took 0.22878176699999999699seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[ekf_node-2] Failed to meet update rate! Took 0.13498729900000000503seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[ekf_node-2] Failed to meet update rate! Took 0.2919458569999999753seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[ekf_node-2] Failed to meet update rate! Took 0.3054879879999999881seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[ekf_node-2] Failed to meet update rate! Took 0.16786392799999999559seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[ekf_node-2] Failed to meet update rate! Took 1.941721503999999987seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.

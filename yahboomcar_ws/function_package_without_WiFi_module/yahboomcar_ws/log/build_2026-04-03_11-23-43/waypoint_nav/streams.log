@@ -1,0 +1,26 @@
+[0.438s] Invoking command in '/home/natdanai/ROS_Source_Code/yahboomcar_ws/function_package_without_WiFi_module/yahboomcar_ws/src/waypoint_nav': PYTHONPATH=/home/natdanai/ROS_Source_Code/yahboomcar_ws/function_package_without_WiFi_module/yahboomcar_ws/build/waypoint_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/natdanai/ROS_Source_Code/yahboomcar_ws/function_package_without_WiFi_module/yahboomcar_ws/install/waypoint_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/waypoint_nav build --build-base /home/natdanai/ROS_Source_Code/yahboomcar_ws/function_package_without_WiFi_module/yahboomcar_ws/build/waypoint_nav/build install --record /home/natdanai/ROS_Source_Code/yahboomcar_ws/function_package_without_WiFi_module/yahboomcar_ws/build/waypoint_nav/install.log --single-version-externally-managed install_data
+[0.618s] running egg_info
+[0.619s] writing ../../build/waypoint_nav/waypoint_nav.egg-info/PKG-INFO
+[0.619s] writing dependency_links to ../../build/waypoint_nav/waypoint_nav.egg-info/dependency_links.txt
+[0.619s] writing entry points to ../../build/waypoint_nav/waypoint_nav.egg-info/entry_points.txt
+[0.619s] writing requirements to ../../build/waypoint_nav/waypoint_nav.egg-info/requires.txt
+[0.619s] writing top-level names to ../../build/waypoint_nav/waypoint_nav.egg-info/top_level.txt
+[0.620s] reading manifest file '../../build/waypoint_nav/waypoint_nav.egg-info/SOURCES.txt'
+[0.621s] writing manifest file '../../build/waypoint_nav/waypoint_nav.egg-info/SOURCES.txt'
+[0.621s] running build
+[0.621s] running build_py
+[0.621s] copying waypoint_nav/check_points.py -> /home/natdanai/ROS_Source_Code/yahboomcar_ws/function_package_without_WiFi_module/yahboomcar_ws/build/waypoint_nav/build/lib/waypoint_nav
+[0.621s] running install
+[0.621s] running install_lib
+[0.622s] copying /home/natdanai/ROS_Source_Code/yahboomcar_ws/function_package_without_WiFi_module/yahboomcar_ws/build/waypoint_nav/build/lib/waypoint_nav/check_points.py -> /home/natdanai/ROS_Source_Code/yahboomcar_ws/function_package_without_WiFi_module/yahboomcar_ws/install/waypoint_nav/lib/python3.10/site-packages/waypoint_nav
+[0.622s] byte-compiling /home/natdanai/ROS_Source_Code/yahboomcar_ws/function_package_without_WiFi_module/yahboomcar_ws/install/waypoint_nav/lib/python3.10/site-packages/waypoint_nav/check_points.py to check_points.cpython-310.pyc
+[0.626s] running install_data
+[0.626s] running install_egg_info
+[0.627s] removing '/home/natdanai/ROS_Source_Code/yahboomcar_ws/function_package_without_WiFi_module/yahboomcar_ws/install/waypoint_nav/lib/python3.10/site-packages/waypoint_nav-0.0.0-py3.10.egg-info' (and everything under it)
+[0.627s] Copying ../../build/waypoint_nav/waypoint_nav.egg-info to /home/natdanai/ROS_Source_Code/yahboomcar_ws/function_package_without_WiFi_module/yahboomcar_ws/install/waypoint_nav/lib/python3.10/site-packages/waypoint_nav-0.0.0-py3.10.egg-info
+[0.628s] running install_scripts
+[0.642s] Installing check_points script to /home/natdanai/ROS_Source_Code/yahboomcar_ws/function_package_without_WiFi_module/yahboomcar_ws/install/waypoint_nav/lib/waypoint_nav
+[0.642s] Installing collect_points script to /home/natdanai/ROS_Source_Code/yahboomcar_ws/function_package_without_WiFi_module/yahboomcar_ws/install/waypoint_nav/lib/waypoint_nav
+[0.642s] Installing run_waypoints script to /home/natdanai/ROS_Source_Code/yahboomcar_ws/function_package_without_WiFi_module/yahboomcar_ws/install/waypoint_nav/lib/waypoint_nav
+[0.642s] writing list of installed files to '/home/natdanai/ROS_Source_Code/yahboomcar_ws/function_package_without_WiFi_module/yahboomcar_ws/build/waypoint_nav/install.log'
+[0.656s] Invoked command in '/home/natdanai/ROS_Source_Code/yahboomcar_ws/function_package_without_WiFi_module/yahboomcar_ws/src/waypoint_nav' returned '0': PYTHONPATH=/home/natdanai/ROS_Source_Code/yahboomcar_ws/function_package_without_WiFi_module/yahboomcar_ws/build/waypoint_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/natdanai/ROS_Source_Code/yahboomcar_ws/function_package_without_WiFi_module/yahboomcar_ws/install/waypoint_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/waypoint_nav build --build-base /home/natdanai/ROS_Source_Code/yahboomcar_ws/function_package_without_WiFi_module/yahboomcar_ws/build/waypoint_nav/build install --record /home/natdanai/ROS_Source_Code/yahboomcar_ws/function_package_without_WiFi_module/yahboomcar_ws/build/waypoint_nav/install.log --single-version-externally-managed install_data

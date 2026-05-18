@@ -1,0 +1,6 @@
+{
+  "package_name": "yahboom_web_savmap_interfaces",
+  "non_idl_tuples": [
+    "/home/natdanai/ROS_Source_Code/yahboomcar_ws/function_package_without_WiFi_module/yahboomcar_ws/src/yahboom_web_savmap_interfaces:src/srv/WebSaveMap.srv"
+  ]
+}

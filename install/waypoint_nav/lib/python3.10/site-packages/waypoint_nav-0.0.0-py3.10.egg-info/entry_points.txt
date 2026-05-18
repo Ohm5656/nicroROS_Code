@@ -1,0 +1,4 @@
+[console_scripts]
+collect_points = waypoint_nav.collect_points:main
+run_waypoints = waypoint_nav.run_waypoints:main
+
